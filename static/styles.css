@@ -1,0 +1,17 @@
+.sub-header {
+	background-color: #dcdcdc;
+	padding: 10px;
+	margin-bottom: 5rem;
+	height: 150px;
+}
+.sub-headline {
+	font-size: 4rem;
+	padding-top: 2rem;
+}
+
+.table {
+	width: 80rem;
+}
+.btn-sub-header {
+	margin-top: -20px;
+}
