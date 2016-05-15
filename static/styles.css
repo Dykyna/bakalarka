@@ -11,9 +11,32 @@
 
 .btn-sub-header {
 	margin-top: -20px;
+	display: inline;
 }
 
 .btn-nav {
 	width: 100px;
 }
 /* proč nefunguje?*/
+.promenne {
+	margin-top:-115px;
+}
+.table-text li{
+	display: inline;
+	margin-bottom:20px;
+}
+.btn-set-sklik{
+	margin-top: 20px;
+}
+.label-box{
+	margin:50px;
+	border-color:#000000;
+	border-radius: 20px;
+	border:1px solid;
+	min-height: 250px;
+	padding: 20px;
+
+}
+.label-box label{
+	margin:20px;
+}
