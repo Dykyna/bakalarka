@@ -64,63 +64,91 @@
     <div class="container">
       <div class="row">
         <h1 class="sub-headline">Sklik</h1>
-        <div class="col-md-offset-10">
-          <a href="#" class="pull-md-left btn btn-primary-outline">Uložit změny</a>
-          <div class="btn-group col-md-offset-11 pull-md-right">
-            <button type="button" class="btn btn-nav btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Odeslat
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Odeslat aktuální sestavu</a>
-              <a class="dropdown-item" href="#">Odeslat aktuální kampaň</a>
-              <a class="dropdown-item" href="#">Odeslat vše</a>
+        <ul class="nav navbar-nav nav-sub-headline pull-xs-right">
+          <li class="nav-item"><a href="#" class="pull-md-left btn btn-primary-outline">Uložit změny</a></li>
+          <li class="nav-item">
+            <div class="btn-group pull-md-right">
+              <button type="button" class="btn btn-nav btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Odeslat
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Odeslat aktuální sestavu</a>
+                <a class="dropdown-item" href="#">Odeslat aktuální kampaň</a>
+                <a class="dropdown-item" href="#">Odeslat vše</a>
+              </div>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-md-offset-10 pull-md-left">
-      <a href="#" class="pull-md-left btn-sub-header btn btn-primary-outline">Duplikovat reklamu</a>
+  <div class="campaign-way">
+    <p>Kampaň > Sestava</p>
+  </div>
+    <ul class="nav navbar-nav duplicate-button pull-xs-right">
+      <li>
+        <a href="#" class="pull-md-left btn-sub-header btn btn-primary-outline">Duplikovat reklamu</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="container-fluid container-editor">
+  <div class="campaign-list col-md-3 col-xs-3">
+      <div class="list-group">
+        <a href="#" class="list-group-item">Kampaň 1</a>
+        <a href="#" class="list-group-item">Kampaň 2</a>
+        <a href="#" class="list-group-item">Kampaň 3</a>
+        <a href="#" class="list-group-item">Kampaň 4</a>
+      </div>
+    </div>
+    <div class="created-ads col-md-3">
+    <ul class="ad-box-list">
+      <li><a href="#" class="add-ad btn btn-primary-outline">Přidat reklamu</a>
+      </li>
+      <li><div class="ad-box">
+        <ul>
+          <li class="headline">Nadpis</li>
+          <li>Popisný řádek</li>
+          <li>Popisný řádek</li>
+          <li>Viditelná adresa</li>
+        </ul>
+      </div></li>
+      </ul>
+    </div>
+    <div class="ad-text">
+      <form class="col-md-3">
+        <fieldset class="form-group">
+          <label for="headline">Nadpis</label>
+          <input type="text" class="form-control" id="headline" placeholder="Nadpis" type="text" name="headline" maxlength="25" size="12">
+        </fieldset>
+        <fieldset class="form-group">
+          <label for="description-line-1">Popisný řádek</label>
+          <input type="text" class="form-control" id="description-line-1" placeholder="Popisný řádek" type="text" name="description-line-1" maxlength="35" size="12">
+        </fieldset>
+        <fieldset class="form-group">
+          <label for="description-line-2">Popisný řádek</label>
+          <input type="text" class="form-control" id="description-line-2" placeholder="Popisný řádek" type="text" name="description-line-2" maxlength="35" size="12">
+        </fieldset>
+        <fieldset class="form-group">
+          <label for="display-url">Viditelná URL</label>
+          <input type="text" class="form-control" id="display-url" placeholder="Viditelná URL" type="text" name="ddisplay-url" maxlength="35" size="12">
+        </fieldset>
+        <fieldset class="form-group">
+          <label for="final-url">Cílová URL</label>
+          <input type="text" class="form-control" id="final-url" placeholder="Cílová URL" type="text" name="final-url" size="12">
+        </fieldset>
+      </form>
+      <div class="label-box pull-md-right col-md-2">
+        <span class="label label-default">Default</span>
+      </div>
     </div>
   </div>
 </div>
-<div class="ad-text">
-  <div class="container">
-    <form class="col-md-3">
-      <fieldset class="form-group">
-        <label for="headline">Nadpis</label>
-        <input type="text" class="form-control" id="headline" placeholder="Nadpis" type="text" name="headline" maxlength="25" size="12">
-      </fieldset>
-      <fieldset class="form-group">
-        <label for="description-line-1">Popisný řádek</label>
-        <input type="text" class="form-control" id="description-line-1" placeholder="Popisný řádek" type="text" name="description-line-1" maxlength="35" size="12">
-      </fieldset>
-      <fieldset class="form-group">
-        <label for="description-line-2">Popisný řádek</label>
-        <input type="text" class="form-control" id="description-line-2" placeholder="Popisný řádek" type="text" name="description-line-2" maxlength="35" size="12">
-      </fieldset>
-      <fieldset class="form-group">
-        <label for="display-url">Viditelná URL</label>
-        <input type="text" class="form-control" id="display-url" placeholder="Viditelná URL" type="text" name="ddisplay-url" maxlength="35" size="12">
-      </fieldset>
-      <fieldset class="form-group">
-        <label for="final-url">Cílová URL</label>
-        <input type="text" class="form-control" id="final-url" placeholder="Cílová URL" type="text" name="final-url" size="12">
-      </fieldset>
-    </form>
-  </div>
-</div>
-<div class="container">
-  <div class="label-box pull-md-right col-md-2">
-    <div class="row">
-      <span class="label label-default">Default</span>
-    </div>
-  </div>
-</div>
+
 
 
 

@@ -29,9 +29,8 @@
 	margin-top: 20px;
 }
 .label-box{
-	margin:50px;
 	border-color:#000000;
-	border-radius: 20px;
+	border-radius: 10px;
 	border:1px solid;
 	min-height: 250px;
 	padding: 20px;
@@ -39,4 +38,39 @@
 }
 .label-box label{
 	margin:20px;
+}
+.campaign-list{
+	border-right: 1px solid;
+	border-color:#000000;
+}
+.created-ads{
+	border-right: 1px solid;
+	border-color:#000000;
+}
+
+.ad-box li{
+	color:#289AFF;
+	list-style-type: none;
+}
+.ad-box{
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+.nav-sub-headline{
+	margin-top: -20px;
+}
+.duplicate-button{
+	margin-top: -30px;
+}
+.campaign-way{
+	margin-top: -60px;
+}
+.container-editor{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.ad-box-list li{
+	list-style-type: none;
 }
